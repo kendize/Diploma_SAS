@@ -1,0 +1,76 @@
+﻿@model  SAS.DTO.EmailConfirmationDTO
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Welcome Email from TCP</title>
+</head>
+
+<body>
+    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+            <td align="center" valign="top" bgcolor="#ffe77b" style="background-color:#ffe77b;">
+                <br>
+                <br>
+                <table width="600" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                        <td height="70" align="left" valign="middle"></td>
+                    </tr>
+                    <tr>
+                        <td align="left" valign="top"><img src="http://localhost:2131/Templates/EmailTemplate/images/top.png" width="600" height="13" style="display:block;"></td>
+                    </tr>
+                    <tr>
+                        <td align="left" valign="top" bgcolor="#564319" style="background-color:#564319; font-family:Arial, Helvetica, sans-serif; padding:10px;">
+                            <div style="font-size:36px; color:#ffffff;">
+                                <b></b>
+                            </div>
+                            <div style="font-size:13px; color:#a29881;">
+                                <b>SAS: Student's Accounting System</b>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="left" valign="top" bgcolor="#ffffff" style="background-color:#ffffff;">
+                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                <tr>
+                                    <td align="center" valign="middle" style="padding:10px; color:#564319; font-size:28px; font-family:Georgia, 'Times New Roman', Times, serif;">
+                                        Congratulations! <small>You are registered.</small>
+                                    </td>
+                                </tr>
+                            </table>
+                            <table width="95%" border="0" align="center" cellpadding="0" cellspacing="0">
+                                <tr>
+                                    
+                                    <td align="left" valign="middle" style="color:#525252; font-family:Arial, Helvetica, sans-serif; padding:10px;">
+                                        <div style="font-size:16px;">
+                                            Dear @Model.Email,
+                                        </div>
+                                        <div style="font-size:12px;">
+                                            Thank you for showing your interest  in  our website.
+                                            All you need to do is click the button below (it only takes a few seconds).
+                                            You won’t be asked to log in to your account – we're simply verifying ownership of this email address.
+                                            <hr>
+                                            <center>
+                                                <form action ="https://localhost:3000/emailconfirmation/userid=@Model.Id&code=@Model.Token">
+                                                    <input style="background: #1b97f1" type="submit" value="Confirm Email" />
+                                                </form>
+
+                                            </center>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+                            
+                            
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="left" valign="top"><img src="http://localhost:2131/Templates/EmailTemplate/images/bot.png" width="600" height="37" style="display:block;"></td>
+                    </tr>
+                </table>
+                <br>
+                <br>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>   

@@ -1,0 +1,24 @@
+2021-09-06 08:09:17.2975|ERROR|SAS.Queries.CourseCommand|Course 'C# Course' already exist, new course wasn't created.
+2021-09-06 10:04:11.2087|ERROR|SAS.Queries.CourseCommand|Course 'C# Course' already exist, new course wasn't created.
+
+2021-09-22 20:30:41.4063|ERROR|SAS.Queries.CourseCommand|Course 'test' already exist, new course wasn't created.
+2021-09-22 20:31:01.0567|ERROR|SAS.Queries.CourseCommand|Course 'test' already exist, new course wasn't created.
+2021-09-23 07:31:55.9337|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request.
+2021-09-23 07:31:55.9337|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request.
+2021-09-23 11:42:01.1388|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request.
+2021-09-23 11:42:04.8565|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request.
+2021-09-23 12:00:15.2704|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request.
+2021-09-23 12:00:15.2704|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request.
+2022-03-16 19:37:30.3445|ERROR|Microsoft.EntityFrameworkCore.Database.Command|Failed executing DbCommand (59ms) [Parameters=[], CommandType='Text', CommandTimeout='60']
+CREATE DATABASE [SAS5db];
+2022-03-16 19:37:30.6256|ERROR|SAS.Program|An error occurred seeding the DB.
+2022-03-16 19:37:41.6637|ERROR|Hangfire.Processing.BackgroundExecution|Execution BackgroundServerProcess is in the Failed state now due to an exception, execution will be retried no more than in 00:00:15
+2022-03-16 19:38:06.6977|ERROR|Hangfire.Processing.BackgroundExecution|Execution BackgroundServerProcess is still in the Failed state for 00:00:25.0324304 due to an exception, will be retried no more than in 00:00:15
+2022-03-16 19:38:31.7372|ERROR|Hangfire.Processing.BackgroundExecution|Execution BackgroundServerProcess is still in the Failed state for 00:00:50.0720805 due to an exception, will be retried no more than in 00:00:15
+2022-03-16 19:38:46.7586|ERROR|Hangfire.Processing.BackgroundExecution|Execution BackgroundServerProcess is still in the Failed state for 00:01:05.0933842 due to an exception, will be retried no more than in 00:00:15
+2022-03-16 19:39:11.8123|ERROR|Hangfire.Processing.BackgroundExecution|Execution BackgroundServerProcess is still in the Failed state for 00:01:30.1471070 due to an exception, will be retried no more than in 00:00:15
+2022-03-16 19:39:26.8292|ERROR|Hangfire.Processing.BackgroundExecution|Execution BackgroundServerProcess is still in the Failed state for 00:01:45.1639996 due to an exception, will be retried no more than in 00:00:15
+2022-03-16 19:39:36.6618|ERROR|Microsoft.EntityFrameworkCore.Database.Command|Failed executing DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='60']
+CREATE DATABASE [SAS5db];
+2022-03-16 19:40:18.8683|ERROR|Hangfire.Processing.BackgroundExecution|Execution BackgroundServerProcess is still in the Failed state for 00:02:37.2032370 due to an exception, will be retried no more than in 00:00:15
+2022-03-16 19:40:18.8683|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request.

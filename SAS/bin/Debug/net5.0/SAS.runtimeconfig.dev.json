@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\okere\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\okere\\.nuget\\packages"
+    ]
+  }
+}
